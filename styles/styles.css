@@ -1,0 +1,86 @@
+:root{
+    --blue: #071B30;
+    --yellow: #F9B500;
+    --red: #8E1C04;
+
+/* change the values below to your chosen font(s) */
+--heading-font: 'Love Ya Like A Sister', cursive;
+}
+
+
+body{
+    font-family: var(--heading-font);
+    color: #071B30;
+}
+
+nav{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: var(--red) ;
+    color: var(--yellow);
+}
+
+.logo{
+    width: 3.80rem;
+}
+
+a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-size: 16px;
+    transition: font-size 0.2s ease-in-out;
+    padding-left: 4rem;
+}
+  
+a:hover {
+    font-size: 32px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    text-align: justify;
+}
+
+h1{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.content{
+    line-height: 1.5;
+}
+
+.div_content{
+    display: flex;
+    flex-direction: column;
+    text-indent: 4rem;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    background: var(--blue);
+    color: var(--yellow);
+}
+
+.linkedin_icon{
+    width: 4rem;
+}
+
+main{
+    background-color: #F9B500;
+}
+
+
+
