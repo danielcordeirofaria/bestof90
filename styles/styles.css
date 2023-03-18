@@ -52,6 +52,7 @@ main{
 h1{
     font-size: 2rem;
     padding: 2rem;
+    text-align: center;
 }
 
 .content{
@@ -82,5 +83,62 @@ main{
     background-color: #F9B500;
 }
 
+.block1:nth-child(1){
+    text-align: left
+  }
 
+/* Best Movies Page */
+
+.container{
+    border: solid var(--blue);
+    border-radius: 20px;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem;
+    width: 700px;
+}
+
+.poster{
+    width: 700px;
+    display: block;
+    border-top: solid var(--blue);
+
+}
+
+.movie_title, .music_title{
+    padding: 2rem;
+    border-top: solid var(--blue);
+    border-bottom:  solid var(--blue);
+}
+
+.director{
+    border-bottom:  solid var(--blue);
+    padding: 2rem;
+}
+
+.main_actors, .song_writer{
+    padding: 2rem;
+
+}
+.best_movie_of, .best_music_of{
+    padding: 2rem;
+}
+
+/* Best Music Page */
+
+.interpreter{
+    padding: 2rem 2rem 0 2rem;
+}
+
+.producer{
+    padding: 0 0  2rem 2rem;
+
+}
+
+a{
+    padding: 0;
+    margin: 0;
+}
 
