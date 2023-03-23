@@ -67,7 +67,7 @@ h1{
 }
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
     padding: 2rem;
@@ -98,6 +98,7 @@ main{
     flex-direction: column;
     margin: 4rem;
     width: 700px;
+    grid-template-columns: 1fr;
 }
 
 .poster{
@@ -124,6 +125,7 @@ main{
 }
 .best_movie_of, .best_music_of{
     padding: 2rem;
+    text-align: center;
 }
 
 /* Best Music Page */
