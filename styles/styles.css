@@ -92,10 +92,9 @@ main{
 .container{
     border: solid var(--blue);
     border-radius: 20px;
-    display: flex;
+    display: grid;
     font-size: 2rem;
     align-items: center;
-    flex-direction: column;
     margin: 4rem;
     width: 700px;
     grid-template-columns: 1fr;
